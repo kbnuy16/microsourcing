@@ -1,0 +1,43 @@
+.cards{
+	display: block;
+	margin: 0px 15px 40px 15px;
+
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+	font-family: "Lato", sans-serif;
+}
+
+.cards-btn{
+	margin-top: -37.5px;
+	position: absolute;
+	right: 50px;
+
+	color: #06434a !important;
+}
+
+.cards-content{
+	height: auto;
+	padding: 5px 20px;
+
+	color: #888888;
+}
+
+.cards-img{
+	height: 250px;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cards-title{
+	margin-bottom: 30px;
+	margin-top: -70px;
+	height: 50px;
+
+	color: #FFFFFF !important;
+	font-family: "Raleway", sans-serif !important;
+	font-size: 38px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px #000000;
+}

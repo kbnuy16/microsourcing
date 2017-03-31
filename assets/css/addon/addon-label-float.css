@@ -1,0 +1,153 @@
+.float-group{
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+}
+
+.float-group i.fa{
+	margin-right: 5px;
+}
+
+.float-group i.fa.pos-right{
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.lbl-float{
+	position: absolute;
+	margin-top: -30px;
+	z-index: 1 !important;
+
+	color: #555;
+	font-size: 16px;
+
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+}
+
+	.form-control:focus + .lbl-float, .lbl-float.active{
+		margin-top: -55px;
+
+		color: #FFF !important;
+		font-size: 12px;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.lbl-float-primary.active{
+		color: #555;
+	}
+
+.float-primary > .form-control:focus,
+.float-primary > .form-control.active{
+	color: #FFF !important;
+
+	box-shadow: inset 0 -2px 0 #FFF !important;
+	-webkit-box-shadow: inset 0 -2px 0 #FFF !important;
+}
+.float-primary > .lbl-float.active,
+.float-primary > .form-control:focus + .lbl-float{
+	color: #888 !important;
+}
+
+.float-success > .form-control:focus,
+.float-success > .form-control.active{
+	color: #27B98A !important;
+
+	box-shadow: inset 0 -2px 0 #27B98A !important;
+	-webkit-box-shadow: inset 0 -2px 0 #27B98A !important;
+}
+.float-success > .lbl-float.active,
+.float-success > .form-control:focus + .lbl-float{
+	color: #27B98A !important;
+}
+
+.float-danger > .form-control:focus,
+.float-danger > .form-control.active{
+	color: #e51c23 !important;
+
+	box-shadow: inset 0 -2px 0 #e51c23 !important;
+	-webkit-box-shadow: inset 0 -2px 0 #e51c23 !important;
+}
+.float-danger > .lbl-float.active,
+.float-danger > .form-control:focus + .lbl-float{
+	color: #e51c23 !important;
+}
+
+.float-warning > .form-control:focus,
+.float-warning > .form-control.active{
+	color: #ff9800 !important;
+
+	box-shadow: inset 0 -2px 0 #ff9800 !important;
+	-webkit-box-shadow: inset 0 -2px 0 #ff9800 !important;
+}
+.float-warning > .lbl-float.active,
+.float-warning > .form-control:focus + .lbl-float{
+	color: #ff9800 !important;
+}
+
+.float-info > .form-control:focus,
+.float-info > .form-control.active{
+	color: #9c27b0 !important;
+
+	box-shadow: inset 0 -2px 0 #9c27b0 !important;
+	-webkit-box-shadow: inset 0 -2px 0 #9c27b0 !important;
+}
+.float-info > .lbl-float.active,
+.float-info > .form-control:focus + .lbl-float{
+	color: #9c27b0 !important;
+}
+
+.float-dark > .form-control:focus,
+.float-dark > .form-control.active{
+	color: #333 !important;
+
+	box-shadow: inset 0 -2px 0 #333 !important;
+	-webkit-box-shadow: inset 0 -2px 0 #333 !important;
+}
+.float-dark > .lbl-float.active,
+.float-dark > .form-control:focus + .lbl-float{
+	color: #333 !important;
+}
+
+.float-marine > .form-control:focus,
+.float-marine > .form-control.active{
+	color: #0F5665 !important;
+
+	box-shadow: inset 0 -2px 0 #0F5665 !important;
+	-webkit-box-shadow: inset 0 -2px 0 #0F5665 !important;
+}
+.float-marine > .lbl-float.active,
+.float-marine > .form-control:focus + .lbl-float{
+	color: #0F5665 !important;
+}
+
+.float-pink > .form-control:focus,
+.float-pink > .form-control.active{
+	color: #EF639E !important;
+
+	box-shadow: inset 0 -2px 0 #EF639E !important;
+	-webkit-box-shadow: inset 0 -2px 0 #EF639E !important;
+}
+.float-pink > .lbl-float.active,
+.float-pink > .form-control:focus + .lbl-float{
+	color: #EF639E !important;
+}
+
+.float-yellow > .form-control:focus,
+.float-yellow > .form-control.active{
+	color: #F7F11A !important;
+
+	box-shadow: inset 0 -2px 0 #F7F11A !important;
+	-webkit-box-shadow: inset 0 -2px 0 #F7F11A !important;
+}
+.float-yellow > .lbl-float.active,
+.float-yellow > .form-control:focus + .lbl-float{
+	color: #F7F11A !important;
+}

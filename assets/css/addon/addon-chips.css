@@ -1,0 +1,176 @@
+.chips{
+	display: inline-block;
+	padding: 0 20px;
+	margin: 5px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	border-radius: 25px;
+	cursor: pointer;
+	background-color: #F5F5F5;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+}
+	.chips-default:hover{
+		background: #EAEAEA;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-primary:hover{
+		background: #2196f3;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-success:hover{
+		background: #27B98A;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-info:hover{
+		background: #9c27b0;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-danger:hover{
+		background: #e51c23;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-warning:hover{
+		background: #ff9800;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-dark:hover{
+		background: #333;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-pink:hover{
+		background: #EF639E;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-marine:hover{
+		background: #0F5665;
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+	.chips-yellow:hover{
+		background: #F7F11A;
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+.chips img{
+	float: left;
+	margin: 0 10px 0 -25px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-size: 20px;
+}
+	.chips:hover img{
+		transform: scale(1.2, 1.2);
+
+		transition: 0.2s ease;
+		-webkit-transition: 0.2s ease;
+		-moz-transition: 0.2s ease;
+		-ms-transition: 0.2s ease;
+		-o-transition: 0.2s ease;
+	}
+
+.chips-sm{
+	height: 30px !important;
+	line-height: 30px !important;
+	letter-spacing: 0 !important;
+}
+.chips-sm img{
+	width: 30px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+.chips-lg{
+	height: 50px !important;
+	line-height: 50px !important;
+}
+.chips-lg img{
+	width: 50px !important;
+	height: 50px !important;
+	line-height: 50px !important;
+}
