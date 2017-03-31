@@ -28,7 +28,19 @@
 	endforeach;
 
 	$sorted = array_multisort($sort, $order, $post);
+?>
 
+<div class="col-lg-12">
+	<h3>Search parameters:</h3>
+
+	<?php if(empty($post)){ ?>
+		<center><em>No results found!</em></center>
+	<?php } ?>
+
+	<hr />
+</div>
+
+<?php
 	foreach($post AS $key => $data):
 		// FETCH AUTHOR DATA FOR EACH RECORD
 		$author_url = $data->_links->author[0]->href;
