@@ -41,7 +41,7 @@
 	<nav class="navbar navbar-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/codetest"><img src="assets/images/logo.png" class="brand-img"></a>
+				<a class="navbar-brand" href="/<?php echo basename($_SERVER['PHP_SELF']); ?>"><img src="assets/images/logo.png" class="brand-img"></a>
 
 				<form class="navbar-form navbar-left">
 					<div class="form-group">
